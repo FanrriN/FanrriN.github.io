@@ -1,10 +1,17 @@
-# Examples
+# Welcome to MkDocs
 
-This project lists all options that are supported by Material for MkDocs and
-can be used as a basis for new projects or reproductions. Note that some options
-might currently be reserved for [sponsors]. Check the list of [available features]
-to be sure.
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-  [sponsors]: https://squidfunk.github.io/mkdocs-material/insiders/
-  [available features]: https://squidfunk.github.io/mkdocs-material/insiders/#whats-in-for-me
+## Commands
 
+* `mkdocs new [dir-name]` - Create a new project.
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs -h` - Print help message and exit.
+
+## Project layout
+
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files.

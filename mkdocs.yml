@@ -1,87 +1,22 @@
-# Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
-
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to
-# deal in the Software without restriction, including without limitation the
-# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-# sell copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
-
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-# IN THE SOFTWARE.
-
-# Project information
 site_name: Fanrri's blog
-site_url: https://FanrriN.github.io/examples/
-site_author: Fanrri
-site_description: >-
-  My website.
-
-# Repository
-repo_name: FanrriN/FanrriN.github.io
-repo_url: https://github.com/FanrriN/FanrriN.github.io
-
-# Copyright
-copyright: Copyright &copy; 2025 Fanrri
-
-# Theme
+site_url: https://FanrriN.github.io/blog/
 theme:
   name: material
-  features:
-    - content.action.edit
-    - content.action.view
-    - content.tooltips
-    - navigation.sections
-  icon:
-    logo: logo
 
-# Plugins
 plugins:
-  - blog
+  - blog:
+      enabled: true
+      blog_dir: blog
+      blog_toc: true
+      post_date_format: medium
+      post_url_date_format: yyyy/MM
+      post_url_format: "{categories}/{slug}"
+      post_slugify_separator: _
+      post_excerpt_max_authors: 3
+      post_excerpt_max_categories: 3
+      categories_name: Articles
+      categories_url_format: "category/{slug}"
+      categories_allowed:
+        - Search
+      draft: false
 
-# Hooks
-hooks:
-  - hooks/archive.py
-
-validation:
-  nav:
-    omitted_files: warn
-    not_found: warn
-    absolute_links: warn
-  links:
-    not_found: warn
-    absolute_links: warn
-    unrecognized_links: warn
-
-# Customization
-extra:
-  analytics:
-    provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
-
-# Extensions
-markdown_extensions:
-  - admonition
-  - attr_list
-  - footnotes
-  - toc:
-      permalink: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.keys
-  - pymdownx.tabbed:
-      alternate_style: true
