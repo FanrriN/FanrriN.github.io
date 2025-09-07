@@ -1,0 +1,23 @@
+site_name: Fanrri's blog
+site_url: https://FanrriN.github.io/
+theme:
+  name: material
+
+plugins:
+  - search
+  - blog:
+      enabled: true
+      blog_dir: blog
+      blog_toc: true
+      post_url_date_format: yyyy/MM/dd
+      post_date_format: medium
+      post_url_format: "{categories}/{slug}"
+      post_slugify_separator: _
+      post_excerpt_max_authors: 3
+      post_excerpt_max_categories: 3
+      categories_name: Articles
+      categories_url_format: "category/{slug}"
+      categories_allowed:
+        - Search
+      draft: false
+
