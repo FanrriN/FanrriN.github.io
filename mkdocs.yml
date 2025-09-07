@@ -19,19 +19,18 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
-site_url: https://mkdocs-material.github.io/examples/
-site_author: Martin Donath
+site_name: Fanrri's blog
+site_url: https://FanrriN.github.io/examples/
+site_author: Fanrri
 site_description: >-
-  An ever-growing collection of self-contained example uses of Material for
-  MkDocs that you can download and run to get started quickly
+  My website.
 
 # Repository
-repo_name: mkdocs-material/examples
-repo_url: https://github.com/mkdocs-material/examples
+repo_name: FanrriN/FanrriN.github.io
+repo_url: https://github.com/FanrriN/FanrriN.github.io
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2023 Martin Donath
+copyright: Copyright &copy; 2025 Fanrri
 
 # Theme
 theme:
