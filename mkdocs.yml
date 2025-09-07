@@ -1,9 +1,10 @@
 site_name: Fanrri's blog
-site_url: https://FanrriN.github.io/blog/
+site_url: https://FanrriN.github.io/
 theme:
   name: material
 
 plugins:
+  - search
   - blog:
       enabled: true
       blog_dir: blog
