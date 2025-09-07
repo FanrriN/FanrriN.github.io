@@ -1,6 +1,6 @@
 ---
 date:
-  created: 2025-09-08
+  created: 2025-09-08T02:13:00+00:00
 ---
 
 # Hello world
