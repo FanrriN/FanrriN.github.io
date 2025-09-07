@@ -9,6 +9,7 @@ plugins:
       enabled: true
       blog_dir: blog
       blog_toc: true
+      post_url_date_format: yyyy/MM/dd
       post_date_format: medium
       post_url_format: "{categories}/{slug}"
       post_slugify_separator: _
