@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fanrri's blog
 
 My own blog.
@@ -9,3 +10,7 @@ I'd rather make the page full in English to make it easier to handle till someda
 Based on [Material for MkDocs].
 
   [Material for MkDocs]: https://squidfunk.github.io/mkdocs-material/
+=======
+# FanrriN.github.io
+My blog.
+>>>>>>> main
