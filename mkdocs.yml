@@ -1,0 +1,46 @@
+site_name: Fanrri's blog
+site_url: https://FanrriN.github.io/
+
+theme:
+  features:
+  - navigation.instant
+  - navigation.instant.progress
+  - navigation.tracing
+  - navigation.path
+  - navigation.prune
+  - navigation.indexes
+  name: material
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+  - blog:
+      enabled: true
+      blog_dir: blog
+      blog_toc: true
+      post_url_date_format: yyyy/MM/dd
+      post_date_format: medium
+      post_url_format: "{categories}/{slug}"
+      post_slugify_separator: _
+      post_excerpt_max_authors: 3
+      post_excerpt_max_categories: 3
+      categories_name: Categories
+      categories_url_format: "category/{slug}"
+      categories_allowed:
+        - FIS
+        - Linux
+        - Hardware
+      draft: false
+
