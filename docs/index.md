@@ -6,7 +6,4 @@ There're too many stuff on the way! This website is currently on it's first step
 
 I'd rather make the page full in English to make it easier to handle till someday I found that I still prefer to use Chinese. The main project I'm focus on is my Minecraft server FIS Fishing Craft, I'd like to show some details about this project in my blog, also as the documents of it.
 
-Based on [Material for MkDocs].
-
-  [Material for MkDocs]: https://squidfunk.github.io/mkdocs-material/
-
+Thank's for your visiting.

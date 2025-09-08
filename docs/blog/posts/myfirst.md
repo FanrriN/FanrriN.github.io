@@ -7,5 +7,4 @@ date: 2025-09-08
 That's it.
 <!-- more -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
+No more.
